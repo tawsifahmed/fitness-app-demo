@@ -16,7 +16,7 @@
     margin-left: 36px;
 }
 
-.header a:hover {
+.nav-link:hover {
     color: orange;
 }
 
@@ -24,4 +24,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-link {
+    cursor: pointer;
 }

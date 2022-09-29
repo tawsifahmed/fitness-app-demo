@@ -25,11 +25,11 @@ const Cart = (props) => {
             </div>
             <br />
             <div className='break-info'>
-                <h3>Add a break</h3>
+                <h3 className='fs-4'>Add a break</h3>
             </div>
             <div className='exercise-info'>
 
-                <h4>Exercise Time: <span>{exTime} Seconds</span> </h4>
+                <h2 className='fs-6'>Exercise Time: <span>{exTime} Seconds</span> </h2>
 
             </div>
         </div>
