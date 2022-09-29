@@ -8,7 +8,7 @@ const item = ({ item }) => {
             <img src={img} alt="" />
             <div className='item-info'>
                 <h2>{name}</h2>
-                <p>Time Required: {time}</p>
+                <p>Time Required: <strong>{time}</strong>s</p>
             </div>
             <button className='btn-cart'>Add to List</button>
         </div>
