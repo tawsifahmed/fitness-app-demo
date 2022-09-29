@@ -1,5 +1,6 @@
 .cart {
     position: sticky;
+    width: 300px;
     top: 0;
     padding: 30px 20px;
     background-color: whitesmoke;

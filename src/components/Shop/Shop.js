@@ -20,7 +20,8 @@ const Shop = () => {
                     <h3>Select Exercises</h3>
                     <div className='items-container'>
                         {
-                            items.map(item => <Item item={item}></Item>)
+                            items.map(item => <Item item={item}
+                                key={item.id}></Item>)
                         }
                     </div>
                 </div>
