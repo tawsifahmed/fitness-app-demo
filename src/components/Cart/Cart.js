@@ -12,7 +12,7 @@ const Cart = (props) => {
     }
 
     return (
-        <div className='cart container'>
+        <div className='cart'>
             <div className='profile'>
                 <img src={photo} alt="" />
                 <p>Ernest Hamingway</p>
