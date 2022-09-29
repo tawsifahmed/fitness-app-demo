@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Shop.css'
-import Item from '../Item/item'
+import Item from '../Item/Item'
 import Cart from '../Cart/Cart'
 
 const Shop = () => {

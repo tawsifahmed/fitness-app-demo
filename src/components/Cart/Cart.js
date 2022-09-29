@@ -4,11 +4,11 @@ import photo from '../../images/Ernest_Hemingway.jpeg'
 
 const Cart = (props) => {
     const { cart } = props;
+
     let exTime = 0;
     for (const item of cart) {
         exTime = exTime + item.time;
     }
-
 
     return (
         <div className='cart'>
@@ -23,12 +23,13 @@ const Cart = (props) => {
                     <small>Age: 25</small>
                 </div>
             </div>
+            <br />
             <div className='break-info'>
                 <h3>Add a break</h3>
             </div>
             <div className='exercise-info'>
 
-                <h4>Exercise Time: {exTime} Seconds </h4>
+                <h4>Exercise Time: <span>{exTime} Seconds</span> </h4>
 
             </div>
         </div>

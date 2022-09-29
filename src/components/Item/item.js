@@ -1,5 +1,5 @@
 import React from 'react';
-import './item.css'
+import './Item.css'
 
 const item = ({ item, handleAddToCart }) => {
     const { name, img, time } = item;
