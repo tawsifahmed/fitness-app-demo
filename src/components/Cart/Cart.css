@@ -6,6 +6,7 @@
     background-color: whitesmoke;
     margin-right: 100px;
     margin-top: 70px;
+    border-radius: 10px;
 }
 
 .cart img {
@@ -22,4 +23,10 @@
 .break-info h3 {
     text-align: left;
 
+}
+
+.exercise-info {
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 5px;
 }
