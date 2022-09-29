@@ -12,7 +12,7 @@ const Cart = (props) => {
     }
 
     return (
-        <div className='cart'>
+        <div className='cart container'>
             <div className='profile'>
                 <img src={photo} alt="" />
                 <p>Ernest Hamingway</p>
@@ -28,7 +28,7 @@ const Cart = (props) => {
             <div className='break-info'>
                 <BreakComponents></BreakComponents>
             </div>
-            <div className='exercise-info'>
+            <div className='exercise-info p-3 rounded'>
 
                 <h2 className='fs-6'>Exercise Time: <span>{exTime} Seconds</span> </h2>
 

@@ -10,8 +10,8 @@ const BreakField = (props) => {
         brkTime = breakk.br;
     }
     return (
-        <div>
-            <h2 className='fs-6'>Break Time: <span>{brkTime} Seconds</span></h2>
+        <div className='p-3 bg-danger mb-2 rounded text-white'>
+            <h2 className='fs-6'>Break Time: <span className='text-white'>{brkTime} Seconds</span></h2>
         </div>
     );
 };

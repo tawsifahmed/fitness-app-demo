@@ -22,7 +22,7 @@ const Session = () => {
 
     return (
         <div>
-            <div className='shop-container'>
+            <div className='session-container'>
                 <div className="items-main-container">
                     <h3>Select Exercises</h3>
                     <div className='items-container'>
