@@ -10,7 +10,7 @@ const item = ({ item, handleAddToCart }) => {
                 <h2>{name}</h2>
                 <p>Time Required: <strong>{time}</strong>s</p>
             </div>
-            <button onClick={() => handleAddToCart(item)} className='btn-cart'>Add to List</button>
+            <button onClick={() => handleAddToCart(item)} className='btn-cart'>Add To List</button>
         </div>
     );
 };
