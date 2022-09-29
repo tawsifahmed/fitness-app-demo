@@ -5,8 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <header className="container">
-
+            <header className="container mt-3">
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
@@ -20,7 +19,6 @@ const Header = () => {
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav justify-content-center">
-
                                 <li className="nav-item">
                                     <a className="nav-link pe-3">Trainers</a>
                                 </li>

@@ -33,6 +33,9 @@ const Cart = (props) => {
                 <h2 className='fs-6'>Exercise Time: <span>{exTime} Seconds</span> </h2>
 
             </div>
+            <div className='mt-4'>
+                <button className='btn btn-lg btn-primary'>Activity Completed</button>
+            </div>
         </div>
     );
 };
