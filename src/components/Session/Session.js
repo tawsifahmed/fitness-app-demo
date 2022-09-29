@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './Shop.css'
+import './Session.css'
 import Item from '../Item/Item'
 import Cart from '../Cart/Cart'
 
-const Shop = () => {
+const Session = () => {
     const [items, setItems] = useState([]);
     const [cart, setCart] = useState([]);
 
@@ -43,4 +43,4 @@ const Shop = () => {
     );
 };
 
-export default Shop;
+export default Session;
