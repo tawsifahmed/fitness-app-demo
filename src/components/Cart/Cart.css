@@ -1,0 +1,24 @@
+.cart {
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.cart img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    text-align: left;
+    padding-left: 6px;
+}
+
+.break-info h3 {
+    text-align: left;
+
+}
