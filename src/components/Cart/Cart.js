@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cart.css'
 import photo from '../../images/Ernest_Hemingway.jpeg'
+import BreakComponents from '../BreakComponents/BreakComponents';
 
 const Cart = (props) => {
     const { cart } = props;
@@ -25,7 +26,7 @@ const Cart = (props) => {
             </div>
             <br />
             <div className='break-info'>
-                <h3 className='fs-4'>Add a break</h3>
+                <BreakComponents></BreakComponents>
             </div>
             <div className='exercise-info'>
 

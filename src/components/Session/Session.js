@@ -15,8 +15,6 @@ const Session = () => {
 
 
     const handleAddToCart = (item) => {
-        console.log(item);
-
         const newCart = [...cart, item];
         setCart(newCart);
 
