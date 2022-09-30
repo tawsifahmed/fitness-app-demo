@@ -1,22 +1,27 @@
 [
     {
         "_id": "633523e3f881e1a2cfaa0961",
-        "br": 10
+        "br": 10,
+        "quantity": 0
     },
     {
         "_id": "633523e3f9c55efeaad756bf",
-        "br": 20
+        "br": 20,
+        "quantity": 0
     },
     {
         "_id": "633507a42ad7b734c3e90439",
-        "br": 30
+        "br": 30,
+        "quantity": 0
     },
     {
         "_id": "633523e3e69a736c8ce3ba24",
-        "br": 40
+        "br": 40,
+        "quantity": 0
     },
     {
         "_id": "633523e3e2af446cc7001c5c",
-        "br": 50
+        "br": 50,
+        "quantity": 0
     }
 ]

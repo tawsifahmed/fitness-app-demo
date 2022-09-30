@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { addToDb, getStoredCart } from '../../utilities/StoreData';
 import './BreakComponents.css'
 import BreakInput from '../BreakInput/BreakInput'
 import BreakField from '../BreakField/BreakField';
@@ -11,13 +12,27 @@ const BreakComponents = () => {
         fetch('break.json')
             .then(res => res.json())
             .then(data => setBreaks(data))
-    }, [])
+    }, []);
+
+    useEffect(() => {
+        const storedCart = getStoredCart();
+        const savedCart = [];
+        for (const _id in storedCart) {
+            const addedBreak = breaks.find(breakk => breakk._id === _id);
+            if (addedBreak) {
+                const quantity = savedCart[_id];
+                addedBreak.quantity = quantity;
+                savedCart.push(addedBreak);
+            }
+        }
+        setBreakFields(savedCart)
+    }, [breaks])
 
     const handleAddToBreak = (breakk) => {
 
         const newBreak = [...breakField, breakk];
         setBreakFields(newBreak);
-
+        addToDb(breakk._id);
     }
     return (
 

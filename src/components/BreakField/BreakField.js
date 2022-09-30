@@ -3,15 +3,17 @@ import './BreakField.css'
 
 const BreakField = (props) => {
     const { breakField } = props;
-
+    console.log(breakField);
 
     let brkTime = 0;
+    let quantity = 0;
     for (const breakk of breakField) {
         brkTime = breakk.br;
+        quantity = brkTime
     }
     return (
         <div className='p-3 bg-danger mb-2 rounded text-white'>
-            <h2 className='fs-6'>Break Time: <span className='text-white'>{brkTime} Seconds</span></h2>
+            <h2 className='fs-6'>Break Time: <span className='text-white'>{quantity} Seconds</span></h2>
         </div>
     );
 };
