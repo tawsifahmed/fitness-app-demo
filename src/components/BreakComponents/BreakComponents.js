@@ -34,18 +34,17 @@ const BreakComponents = () => {
         setBreakFields(newBreak);
         addToDb(breakk._id);
     }
+
     return (
 
         <div className='break-container'>
             <p className='fs-4'>Add a Break Time:</p>
             <div className='break-input d-flex flex-row m-3 justify-content-evenly'>
-
                 {
                     breaks.map(breakk => <BreakInput breakk={breakk}
                         key={breakk._id}
                         handleAddToBreak={handleAddToBreak}></BreakInput>)
                 }
-
             </div>
             <div className='break-field'>
                 <BreakField

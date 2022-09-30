@@ -3,6 +3,7 @@ import './Item.css'
 
 const Item = ({ item, handleAddToCart }) => {
     const { name, img, time } = item;
+
     return (
         <div className='item'>
             <img src={img} alt="" />
