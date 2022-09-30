@@ -2,6 +2,9 @@ import React from 'react';
 import './Cart.css'
 import photo from '../../images/Ernest_Hemingway.jpeg'
 import BreakComponents from '../BreakComponents/BreakComponents';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = (props) => {
     const { cart } = props;
@@ -10,6 +13,7 @@ const Cart = (props) => {
     for (const item of cart) {
         exTime = exTime + item.time;
     }
+    const notify = () => toast("Congratulations, You have finished your task!");
 
     return (
         <div className='cart'>
@@ -34,7 +38,8 @@ const Cart = (props) => {
 
             </div>
             <div className='mt-4'>
-                <button className='btn btn-lg btn-primary'>Activity Completed</button>
+                <button onClick={notify} className='btn btn-lg btn-primary'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
