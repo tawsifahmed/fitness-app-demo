@@ -15,8 +15,5 @@ const Item = ({ item, handleAddToCart }) => {
     );
 };
 
-<<<<<<< HEAD:src/components/Item/item.js
-export default Item;
-=======
 
->>>>>>> 8a9084683401f512267b6effa8ff9e45472fa353:src/components/Item/Item.js
+export default Item;
