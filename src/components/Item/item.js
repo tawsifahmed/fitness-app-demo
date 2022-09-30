@@ -1,7 +1,7 @@
 import React from 'react';
 import './Item.css'
 
-const item = ({ item, handleAddToCart }) => {
+const Item = ({ item, handleAddToCart }) => {
     const { name, img, time } = item;
     return (
         <div className='item'>
@@ -15,4 +15,4 @@ const item = ({ item, handleAddToCart }) => {
     );
 };
 
-export default item;
+export default Item;
